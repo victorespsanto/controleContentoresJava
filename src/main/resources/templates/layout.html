@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html 
+
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+	
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de contentores</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+</head>
+<body>
+    <header>    	
+        <div id="divLogotipoSistema"
+        	class="container-fluid p-3 mb-2 bg-primary text-white shadow-lg" >
+            <span id="divUsuarioLogado">Um exemplo de texto</span>
+            <img alt="" src="C:/Users/cmzw/Pictures/logoPetrobras/Logo-PetrobrasP&B.png" />
+            
+        </div>
+       
+        
+        <div id="divUsuarioLogado" class="container-fluid p-3 mb-2 bg-success text-white">
+            <span>Olá,boa tarde</span>
+            <br>
+            
+        </div>
+        
+        
+		        
+        
+        
+    </header>
+    <br /><br /> 
+
+    <!--  Cabeçalho - Fim  -->
+
+    <!-- COnteúdo -->
+    
+    <div layout:fragment="content"></div>
+
+    <!--  Rodapé - Inicio -->
+    
+    <br /><br /><!-- sempre fechar as tags /  -->
+    
+</body>
+</html>
